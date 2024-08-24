@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -27,9 +28,7 @@ body {
 }
 #navbar .navbar-container ul{
     display: flex;
-
     margin: 0 auto;
-
     list-style: none;
     font-weight: bold;
 }
@@ -38,4 +37,47 @@ body {
     color: azure;
     text-decoration: none;
     padding: 0 20px;
+}
+/* Fim da Navbar */
+/* Body */
+.container-title{
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    padding: 20px;
+}
+.grupo-pai{
+    color: azure;
+    border-radius: 30px;
+    width: 30rem;
+    padding: 14px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #191919;
+}
+.grupo{
+    margin: 20px;
+
+}
+.grupo label{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    display: block;
+}
+.grupo input{
+    padding: 10px;
+    transition: all 300ms ease;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.grupo input:hover{
+    padding: 11px;
 }
