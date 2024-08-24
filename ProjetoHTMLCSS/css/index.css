@@ -6,8 +6,9 @@
 }
 
 body {
-    background-color: #262626 ;
+    background-color: #262626;
 }
+
 /* Navbar */
 #navbar {
     display: flex;
@@ -19,28 +20,32 @@ body {
     width: 100%;
     font-size: x-large;
 }
-#navbar .navbar-container{
+
+#navbar .navbar-container {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
 }
-#navbar .navbar-container ul{
+
+#navbar .navbar-container ul {
     display: flex;
     margin: 0 auto;
     list-style: none;
     font-weight: bold;
 }
+
 .navbar-item a {
 
     color: azure;
     text-decoration: none;
     padding: 0 20px;
 }
+
 /* Fim da Navbar */
 /* Body */
-.container-title{
+.container-title {
     margin-top: 65px;
     margin-left: auto;
     margin-right: auto;
@@ -49,36 +54,41 @@ body {
     color: azure;
     padding: 20px;
 }
-.grupo-pai{
+
+.grupo-pai {
     color: azure;
     border-radius: 30px;
     width: 30rem;
     padding: 14px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     background-color: #191919;
 }
-.grupo{
+
+.grupo {
     margin: 20px;
 
 }
-.grupo label{
+
+.grupo label {
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
     display: block;
 }
-.grupo input{
+
+.grupo input {
     padding: 10px;
     transition: all 300ms ease;
     border-radius: 10px;
     width: 100%;
     margin-bottom: 10px;
 }
-.grupo input:hover{
+
+.grupo input:hover {
     padding: 11px;
 }
 
@@ -87,7 +97,7 @@ body {
     border-radius: 30px;
     width: 30rem;
     padding: 14px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 80px;
@@ -96,12 +106,22 @@ body {
     background-color: #191919;
 }
 
+.cad-container input {
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+
+.cad-container input:hover {
+    padding: 11px;
+}
+
 .e-mail {
     color: azure;
     border-radius: 30px;
     width: 20rem;
     padding: 14px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: auto;
@@ -119,7 +139,7 @@ body {
     border-radius: 30px;
     width: 20rem;
     padding: 14px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: auto;
@@ -134,7 +154,7 @@ body {
     border-radius: 30px;
     width: 20rem;
     padding: 14px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: auto;
@@ -149,7 +169,7 @@ body {
     border-radius: 30px;
     width: 20rem;
     padding: 14px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: auto;
@@ -164,7 +184,7 @@ body {
     border-radius: 30px;
     width: 20rem;
     padding: 14px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: auto;
@@ -177,7 +197,7 @@ body {
     background: #0a4a1b;
     color: white;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 8px;
     width: 50%;
     border: none;
     border-radius: 30px;
@@ -220,6 +240,4 @@ body {
 .cad-container p {
     text-align: center;
     margin: 25px;
-    
 }
-
