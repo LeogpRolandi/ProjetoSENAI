@@ -10,6 +10,12 @@ body {
 }
 
 /* Navbar */
+#navbar img{
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+
 #navbar {
     display: flex;
     background: #191919;
@@ -20,6 +26,7 @@ body {
     width: 100%;
     font-size: x-large;
 }
+
 
 #navbar .navbar-container {
     text-align: center;
@@ -241,3 +248,43 @@ body {
     text-align: center;
     margin: 25px;
 }
+
+.img-container{
+    margin-top: 40px;
+    display: flex;
+    padding: 25px;
+    font-size: medium;
+    justify-content: space-evenly;
+    transition: all 300ms ease;
+}
+
+.img{
+    transition: all 300ms ease;
+}
+
+.img:hover{
+    margin: 20px;
+    font-size: larger;
+}
+.img-2{
+    transition: all 300ms ease;
+    
+}
+
+.img-2:hover{
+    font-size: larger;
+    padding: 20px;
+}
+.img-3{
+    transition: all 300ms ease;
+}
+
+.img-3:hover{
+    padding: 20px;
+    font-size: larger;
+}
+
+.img-title{
+    color: azure;
+}
+
